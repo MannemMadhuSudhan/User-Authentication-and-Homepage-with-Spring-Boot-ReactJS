@@ -1,0 +1,94 @@
+/* styles.css */
+
+/* Basic styling for the Navbar */
+
+
+/* Styling for the Register and Login forms */
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+}
+
+form input {
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+form button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+form button:hover {
+  background-color: #45a049;
+}
+
+/* Home Page */
+h1 {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 50px;
+}
+
+
+/* Home.css */
+
+/* Horizontal Navigation Bar */
+nav {
+  background-color: #333;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* Center the navigation bar */
+  gap: 20px; /* Add space between items */
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: white; /* White text color for links */
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 10px 15px; /* Add padding around links */
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #575757; /* Add a hover background color */
+  color: #fff; /* Ensure text remains white on hover */
+  border-radius: 4px; /* Add slight rounding to hover effect */
+}
+
+/* Rest of the Home Page Styling */
+.home h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin: 20px 0;
+}
+
+.home p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
